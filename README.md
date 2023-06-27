@@ -1,4 +1,6 @@
-# CS 425 MP3: MapleJuice
+# Passionfruit
+A Hadoop-like cloud computing framework for distributed storage and big data processing using
+the MapReduce programming model.
 
 ## Project Setup Requirement
 
@@ -7,16 +9,9 @@ Please install the following tools with correct version first:
 1. Java 8 (Openjdk)
 2. Apache Maven
 
-## Source Code path
-
-1. MP1: `MP1-archive/distributed-group-membership/src/main/java/edu/cs425/mp1` 
-2. MP2: `MP2-archive/src/main/java/edu/cs425/mp2`
-3. MP3: `src/main/java/edu/cs425/mp3`
-4. MP3 Report: root path
-
 ## Steps to build & run project
 
-1. Change to the root of our project directory: `cd distributed-group-membership/`
+1. Change to the root of our project directory.
 
 2. Start the server process by issuing the command: `./start.sh <node number> <deployment mode>` 
 
@@ -94,8 +89,4 @@ Please install the following tools with correct version first:
 
 * `stop`
 
-    Stop the both SDFS Server and Membership Server process. You can also use `Ctrl C` to kill the server process.
-
-## Contact
-
-[Dayue Bai](mailto:dayueb2@illinois.edu), [Yitan Ze](mailto:yitanze2@illinois.edu) (in alphabetical order)
+    Stop SDFS Server and Membership Server process. You can also use `Ctrl C` to kill the server process.
